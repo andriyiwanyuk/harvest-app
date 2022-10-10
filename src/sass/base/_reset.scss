@@ -1,0 +1,35 @@
+*,
+:after,
+:before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+body,
+button,
+input,
+a {
+    font-family: "Roobert", sans-serif;
+    color: #143232;
+}
+
+input:not(.default-outline):focus {
+    outline: none;
+}
+
+/* Change autocomplete styles*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    box-shadow: 0 0 0px 1000px #ffffff inset;
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
