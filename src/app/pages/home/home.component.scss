@@ -1,0 +1,29 @@
+.home {
+  padding: 60px 0;
+
+  .event-title {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 100px;
+    letter-spacing: 3px;
+
+    .events {
+      color: green;
+    }
+  }
+
+  .event-shell {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    li {
+      cursor: pointer;
+
+      .title {
+        font-size: 25px;
+        text-decoration: none;
+      }
+    }
+  }
+}
